@@ -1,0 +1,439 @@
+*{
+    transition: all 1s;
+}
+body{
+    font-family: comfortaa;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: comfortaa;
+}
+
+.logo{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.links{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    text-decoration: underline white;
+}
+
+a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline white;
+    margin: 5px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    background: transparent;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+}
+
+.full-nav{
+    background-color: crimson;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchbox{
+    width: 500px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid crimson;
+    color: crimson;
+}
+
+.searchbox-big{
+    width: 500px;
+    height: 60px;
+    margin: 5px;
+    border: 1px solid crimson;
+    color: crimson;
+}
+button{
+    background: crimson;
+    font-family: comfortaa;
+    border: 1px solid crimson;
+    height: 39px;
+    width: 100px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: comfortaa;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: comfortaa;
+    padding: 50px;
+    color: crimson;
+    background: linear-gradient(50deg, rgb(31, 98, 245), white);
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    flex-direction: column;
+    text-align: center;
+    font-family: comfortaa;
+    padding: 180px;
+    color: crimson;
+    background: linear-gradient(50deg, rgb(31, 98, 245), white);
+}
+
+.welcome h1{
+    font-size: 50px;
+}
+
+.welcome p{
+    font-size: 20px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: comfortaa;
+    padding: 50px;
+    color: crimson;
+    background: linear-gradient(50deg, rgb(31, 98, 245), white);
+}
+
+.contact form{
+    background: rgba(255, 255, 255, 0.171);
+    padding: 20px;
+    display: flex;
+    font-family: comfortaa;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whatsnew{
+    background: linear-gradient(50deg, rgb(31, 98, 245), white);
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+.transparent button{
+    width: 130px;
+    margin: 20px;
+}
+
+button:hover{
+    background: rgb(184, 12, 47);
+}
+
+.transparent{
+    background: rgba(255, 255, 255, 0.171);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer{
+    background: crimson;
+    color: white;
+    font-family: comfortaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.about form{
+    background: rgba(255, 255, 255, 0.171);
+    padding: 20px;
+}
+
+.articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.two form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.two h3{
+    border: 1px solid crimson;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+ 
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.two a{
+    color: crimson;
+}
+
+h2{
+    color: crimson;
+}
+
+.article-contents{
+    border: 1px solid crimson;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.article-contents table{
+    border: 1px solid crimson;
+    padding: 5px;
+    color: crimson;
+}
+
+.bg th{
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+.reviews{
+    background: linear-gradient(50deg, rgb(31, 98, 245), white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+h3{
+    margin-right: 20px;
+}
+
+form textarea{
+    border: 1px solid crimson;
+    margin: 10px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+.review-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.678);
+    margin: 20px;
+    padding: 20px;
+}
+
+.bg{
+    background: rgba(255, 255, 255, 0.171);
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:650px){
+    .searchbox{
+        width: 399px;
+    }
+    form textarea{
+        width: 399px;
+    }
+}
+@media (max-width:570px){
+    .searchbox{
+        width: 300px;
+    }
+    form textarea{
+        width: 300px;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .links{
+        margin: 10px;
+    }
+}
+
+@media (max-width:520px){
+    .navbar{
+        flex-direction: column;
+    }
+    .search{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:350px){
+    .searchbox{
+        width: 250px;
+    }
+    form textarea{
+        width: 250px;
+    }
+}
+
+@media (max-width:339px){
+    .links{
+        margin: 0px;
+    }
+}
+
+@media (max-width:320px){
+    .links{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .logo{
+        margin: 0px;
+    }
+}
+
+@media (max-width:290px){
+    .searchbox{
+        width: 200px;
+    }
+    form textarea{
+        width: 200px;
+    }
+
+    .two h3{
+        padding: 50px;
+    }
+}
+
+
+@media (max-width: 1000px){
+
+    .row{
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:520px){
+    .two{
+        flex-direction: column;
+    }
+}
+
